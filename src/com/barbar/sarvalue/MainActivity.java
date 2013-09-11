@@ -62,7 +62,14 @@ public class MainActivity extends Activity {
                         final AlertDialog.Builder alert = new AlertDialog.Builder(pUbiSarValueActivity);
                         alert.setTitle("SAR Info");
                         alert.setMessage(
-                                        "Telecommunications standards prevent the sale\nof mobile phones that exceed a maximum exposure\nlevel known as SAR of 1.6W/kg.\n\nDuring testing, the maximum SAR recorded\nfor this model is below SAR Values of:\nGSM900: Head 0.749 Watt/kg; Body 0.521 Watt/kg\nGSM1800: Head 0.623 Watt/kg; Body 0.429 Watt/kg\nW-CDMA2100: Head 0.563 Watt/kg; Body 0.412 Watt/kg\n\n")
+                                        "Telecommunications standards prevent the sale\n" +
+                                        "of mobile phones that exceed a maximum exposure\n" +
+                                        "level known as SAR of 1.6W/kg.\n\n" +
+                                        "During testing, the maximum SAR recorded\n" +
+                                        "for this model is below SAR Values of:\n" +
+                                        "GSM900: Head 0.450 Watt/kg; Body 0.874 Watt/kg\n" +
+                                        "GSM1800: Head 0.337 Watt/kg; Body 0.523 Watt/kg\n" +
+                                        "W-CDMA2100: Head 0.906 Watt/kg; Body 0.446 Watt/kg\n\n")
                                         .setCancelable(false);
 
                         alert.setNegativeButton("OK", new DialogInterface.OnClickListener() {
